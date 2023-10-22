@@ -1,5 +1,6 @@
 __pycache__
-db.sqlite
+/db.sqlite
+**/__pycache__/
 #*.htm
 #*.png
 #*.xlsx
