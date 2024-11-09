@@ -25,7 +25,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+
+if congig('DEBUG') == "True":
+	DEBUG = True
+else:
+	DEUB = False
 
 ALLOWED_HOSTS = ['18.132.109.205', 'renealby.com', '18.134.124.91', '127.0.0.1']
 
