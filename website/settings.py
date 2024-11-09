@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 if congig('DEBUG') == "True":
 	DEBUG = True
 else:
-	DEUB = False
+	DEBUG = False
 
 ALLOWED_HOSTS = ['18.132.109.205', 'renealby.com', '18.134.124.91', '127.0.0.1']
 
